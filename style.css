@@ -1,3 +1,12 @@
 #header{
     background-color: rgb(211, 223, 184);
+    /* Mantem sempre fixado no topo da tela */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main{
+    /* Pois estava por baixo do header */
+    margin-top: 100px;
 }
